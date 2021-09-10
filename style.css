@@ -9,7 +9,7 @@ img{
     background-color: ghostwhite;
 }
 
-.output{
+.output-container{
     background-color: lightgreen;
     color: black;
 
@@ -20,6 +20,8 @@ img{
     position: fixed;
     left: 0;
     top: 0;
+
+    text-align: center;
 }
 .poke{
     width: 100px;
@@ -28,7 +30,7 @@ img{
     transition: 1s ease;
 }
 
-/* js */
+/* js 10 */
 .poke.zoom{
     transform: scale(2);
 }
