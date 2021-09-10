@@ -1,0 +1,16 @@
+img{
+    width: 20%;
+    /* max-width: 100%; */
+}
+
+.content{
+    height: 2000vh;
+    padding: 20%;
+    background-color: ghostwhite;
+}
+
+.output{
+    background-color: yellow;
+
+    width: 100%;
+}
