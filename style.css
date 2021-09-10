@@ -1,5 +1,5 @@
 img{
-    width: 20%;
+    width: 100%;
     /* max-width: 100%; */
 }
 
@@ -10,7 +10,25 @@ img{
 }
 
 .output{
-    background-color: yellow;
+    background-color: lightgreen;
+    color: black;
 
     width: 100%;
+    font-size: 2rem;
+    font-weight: 200;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.poke{
+    width: 100px;
+    margin: 20px auto;
+    
+    transition: 1s ease;
+}
+
+/* js */
+.poke.zoom{
+    transform: scale(2);
 }
