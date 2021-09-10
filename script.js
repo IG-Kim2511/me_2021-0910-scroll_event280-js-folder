@@ -32,7 +32,7 @@
             }
         }
 
-        /* js 30 scroll and outputHandler */
+        /*🍀 js 30 scroll and outputHandler */
         function outputHandler() {
 
             // console.log(pokeElem.getBoundingClientRect());
