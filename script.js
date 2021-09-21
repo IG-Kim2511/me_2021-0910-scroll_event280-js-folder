@@ -38,14 +38,17 @@
             // console.log(pokeElem.getBoundingClientRect());
             // console.log(pokeElem.getBoundingClientRect().top);
             // console.log(window.innerHeight)
+    
 
-            outputElemA.innerHTML = window.pageYOffset;
+            outputElemA.innerHTML = window.innerHeight;
             outputElemB.innerHTML = pokeElem.offsetTop;
 
             pokeElemGBCR = pokeElem.getBoundingClientRect().top;
             outputElemC.innerHTML = pokeElemGBCR;
 
-            outputElemD.innerHTML = window.innerHeight;
+            outputElemD.innerHTML = window.pageYOffset;
+
+
         }
     }
 )();

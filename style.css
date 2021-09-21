@@ -1,36 +1,36 @@
-img{
-    width: 100%;
-    /* max-width: 100%; */
+img {
+  width: 100%;
+  /* max-width: 100%; */
 }
 
-.content{
-    height: 2000vh;
-    padding: 20%;
-    background-color: ghostwhite;
+.content {
+  height: 2000vh;
+  padding: 20%;
+  background-color: ghostwhite;
 }
 
-.output-container{
-    background-color: lightgreen;
-    color: black;
+.output-container {
+  background-color: lightgreen;
+  color: black;
 
-    width: 100%;
-    font-size: 2rem;
-    font-weight: 200;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 200;
 
-    position: fixed;
-    left: 0;
-    top: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
 
-    text-align: center;
+  text-align: center;
 }
-.poke{
-    width: 100px;
-    margin: 20px auto;
-    
-    transition: 0.3s ease;
+.poke {
+  width: 100px;
+  margin: 20px auto;
+
+  transition: 0.3s ease;
 }
 
 /* js 10 */
-.poke.zoom{
-    transform: scale(5);
+.poke.zoom {
+  transform: scale(5);
 }
