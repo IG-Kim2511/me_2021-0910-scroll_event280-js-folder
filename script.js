@@ -7,6 +7,7 @@
         const outputElemB = document.querySelector('.output_b');
         const outputElemC = document.querySelector('.output_c');
         const outputElemD = document.querySelector('.output_d');
+        const outputElemE = document.querySelector('.output_e');
 
         const pokeElem = document.querySelector('.poke');
         let pokeElemGBCR; /* js 30 */
@@ -24,6 +25,8 @@
         //🦄getBoundingClientRect() , getBoundingClientRect().top;
         function showValue() {
 
+            // pokeElemGBCR = pokeElem.getBoundingClientRect().top;
+
             // js 10 
             if (pokeElemGBCR < window.innerHeight * 0.2) {
                 pokeElem.classList.add("zoom");
@@ -39,15 +42,18 @@
             // console.log(pokeElem.getBoundingClientRect().top);
             // console.log(window.innerHeight)
     
-
-            outputElemA.innerHTML = window.innerHeight;
-            outputElemB.innerHTML = pokeElem.offsetTop;
-
             pokeElemGBCR = pokeElem.getBoundingClientRect().top;
             outputElemC.innerHTML = pokeElemGBCR;
 
             outputElemD.innerHTML = window.pageYOffset;
+            
+            outputElemE.innerHTML = window.scrollY;
+            
 
+            outputElemA.innerHTML = window.innerHeight;
+            outputElemB.innerHTML = pokeElem.offsetTop;
+
+        
 
         }
     }
